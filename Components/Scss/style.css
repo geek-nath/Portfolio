@@ -10,6 +10,9 @@ body {
 body .text-danger {
   color: #DD1133 !important;
 }
+body a {
+  text-decoration: none !important;
+}
 body .btn {
   padding: 0%;
   height: 50px;
@@ -113,6 +116,14 @@ body main section.services .container h1::after {
   }
 }
 body main section.services .container .mt-4 .row .col-md-4 .card {
+  background-color: #1b324b;
+  border-color: #1b324b !important;
+  border-radius: 0%;
+}
+body main section.portfolio .container .row .col-md-4 {
+  margin-top: 20px;
+}
+body main section.portfolio .container .row .col-md-4 .card {
   background-color: #1b324b;
   border-color: #1b324b !important;
   border-radius: 0%;

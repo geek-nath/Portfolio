@@ -11,6 +11,10 @@ body {
     .text-danger {
         color: #DD1133 !important;
     }
+    
+    a {
+        text-decoration: none !important;
+    }
 
     // btn style
     .btn {
@@ -137,6 +141,21 @@ body {
                                     border-color: #1b324b !important;
                                     border-radius: 0%;
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.portfolio {
+                .container {
+                    .row {
+                        .col-md-4 {
+                            margin-top: 20px;
+                            .card {
+                                background-color: #1b324b;
+                                border-color: #1b324b !important;
+                                border-radius: 0%;
                             }
                         }
                     }
