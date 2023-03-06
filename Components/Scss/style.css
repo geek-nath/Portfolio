@@ -37,7 +37,13 @@ body .hero {
 }
 @media screen and (max-width: 425px) {
   body .hero {
-    background-position: left;
+    background: url("../Assets/Images/Circuit Primary-mobile.svg");
+  }
+}
+@media screen and (max-width: 425px) and (max-width: 414px) {
+  body .hero {
+    background-position: bottom;
+    background-repeat: no-repeat;
   }
 }
 body .hero .container .col-md-8 .hero_text h1 {
@@ -46,6 +52,11 @@ body .hero .container .col-md-8 .hero_text h1 {
 @media screen and (max-width: 768px) {
   body .hero .container .col-md-8 .hero_text h1 {
     font-size: 2rem;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 375px) {
+  body .hero .container .col-md-8 .hero_text h1 {
+    font-size: 1.8rem;
   }
 }
 body .hero .container .col-md-8 .hero_text p {
@@ -82,4 +93,19 @@ body main section.services .container .mt-4 .row .col-md-4 .card {
   background-color: #1b324b;
   border-color: #1b324b !important;
   border-radius: 0%;
+}
+body main section.contact {
+  background: url("../Assets/Images/World Map.svg");
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 425px) {
+  body main section.contact .container p {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  body main section.contact .container p br {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

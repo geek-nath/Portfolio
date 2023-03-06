@@ -43,7 +43,12 @@ body {
         background-size: cover;
 
         @media screen and (max-width: 425px) {
-            background-position: left;
+            background: url('../Assets/Images/Circuit\ Primary-mobile.svg');
+
+            @media screen and (max-width: 414px) {
+                background-position: bottom;
+                background-repeat: no-repeat;
+            }
         }
 
         .container {
@@ -54,6 +59,10 @@ body {
 
                         @media screen and (max-width: 768px) {
                             font-size: 2rem;
+
+                            @media screen and (max-width: 375px) {
+                                font-size: 1.8rem;
+                            }
                         }
                     }
 
@@ -105,6 +114,27 @@ body {
                                     border-color: #1b324b !important;
                                     border-radius: 0%;
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.contact {
+                background: url('../Assets/Images/World\ Map.svg');
+                background-position: center;
+                background-size: cover;
+                // background-attachment: fixed;
+
+                .container {
+                    p {
+                        @media screen and (max-width: 425px) {
+                            font-size: .8rem;
+                        }
+
+                        br {
+                            @media screen and (max-width: 425px) {
+                                display: none;
                             }
                         }
                     }
