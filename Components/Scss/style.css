@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+  background-color: #0E2A47 !important;
+}
+body .text-danger {
+  color: #DD1133 !important;
+}
+body .btn {
+  padding: 0%;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0%;
+  font-size: 0.9rem;
+  box-shadow: none !important;
+}
+body .btn.btn-danger {
+  background-color: #DD1133 !important;
+  border-color: #DD1133 !important;
+}
+body nav {
+  background-color: #0E2A47;
+}
+body .hero {
+  height: 100vh;
+  width: 100%;
+  background: url("../Assets/Images/Circuit Primary.svg");
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (max-width: 425px) {
+  body .hero {
+    background-position: left;
+  }
+}
+body .hero .container .col-md-8 .hero_text h1 {
+  font-size: 3rem;
+}
+@media screen and (max-width: 768px) {
+  body .hero .container .col-md-8 .hero_text h1 {
+    font-size: 2rem;
+  }
+}
+body .hero .container .col-md-8 .hero_text p {
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  body .hero .container .col-md-8 .hero_text p {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}
+body main section {
+  padding: 5rem 0px;
+}
+body main section.services .container h1 {
+  font-size: 3rem;
+  position: relative;
+}
+body main section.services .container h1::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0%;
+  height: 3px;
+  width: 100px;
+  background-color: #3A7CC3;
+}
+@media screen and (max-width: 768px) {
+  body main section.services .container h1 {
+    font-size: 2rem;
+  }
+}
+body main section.services .container .mt-4 .row .col-md-4 .card {
+  background-color: #1b324b;
+  border-color: #1b324b !important;
+  border-radius: 0%;
+}/*# sourceMappingURL=style.css.map */
