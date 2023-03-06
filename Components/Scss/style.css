@@ -46,12 +46,6 @@ body .hero {
   background-position: center;
   background-size: cover;
 }
-@media screen and (max-width: 425px) and (max-width: 414px) {
-  body .hero {
-    background-position: bottom;
-    background-repeat: no-repeat;
-  }
-}
 body .hero .container .col-md-8 .hero_text h1 {
   font-size: 3rem;
 }
