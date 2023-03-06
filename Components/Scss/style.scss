@@ -58,7 +58,8 @@ body {
         background-size: cover;
 
         @media screen and (max-width: 425px) {
-            background: url('../Assets/Images/Circuit\ Primary-mobile.svg');
+            // background:  url('../Assets/Images/Circuit\ Primary-mobile.svg');
+            // background-position: bottom !important;
 
             @media screen and (max-width: 414px) {
                 background-position: bottom;

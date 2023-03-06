@@ -46,11 +46,6 @@ body .hero {
   background-position: center;
   background-size: cover;
 }
-@media screen and (max-width: 425px) {
-  body .hero {
-    background: url("../Assets/Images/Circuit Primary-mobile.svg");
-  }
-}
 @media screen and (max-width: 425px) and (max-width: 414px) {
   body .hero {
     background-position: bottom;
