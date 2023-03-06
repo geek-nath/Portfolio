@@ -30,6 +30,7 @@ body .btn.btn-danger {
 }
 body nav {
   background-color: #0E2A47;
+  z-index: 1 !important;
 }
 body nav .container .navbar-toggler {
   opacity: 1 !important;

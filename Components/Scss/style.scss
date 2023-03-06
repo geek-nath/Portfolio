@@ -37,6 +37,7 @@ body {
     // navbar
     nav {
         background-color: #0E2A47;
+        z-index: 1 !important;
 
         .container {
             .navbar-toggler {
