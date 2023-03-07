@@ -24,17 +24,18 @@ body {
         transform: translateY(-50%);
         border-radius: 0px 10px 10px 0px;
         z-index: 1;
-        left: -50% !important;
+        left: 0% !important;
         top: 50%;
-        transition: 1s ease-in !important;
+        transition: .4s ease-in !important;
+        opacity: 0;
 
         @media screen and (max-width: 768px) {
             display: none !important;
         }
 
         &.social_block_show {
-            left: 0% !important;
-            transition: 1s ease-in !important;
+            opacity: 0.4;
+            transition: .4s ease-in !important;
         }
     }
 
@@ -188,33 +189,34 @@ body {
                     }
                 }
             }
+        }
+    }
 
-            &.contact {
-                background: url('../Assets/Images/World\ Map.svg');
-                background-position: center;
-                background-size: cover;
-                // background-attachment: fixed;
+    .contact {
+        background: url('../Assets/Images/World\ Map.svg');
+        background-position: center;
+        background-size: cover;
+        padding: 5rem 0px;
+        // background-attachment: fixed;
 
-                .container {
-                    p {
-                        @media screen and (max-width: 425px) {
-                            font-size: .8rem;
-                        }
+        .container {
+            p {
+                @media screen and (max-width: 425px) {
+                    font-size: .8rem;
+                }
 
-                        br {
-                            @media screen and (max-width: 425px) {
-                                display: none;
-                            }
-                        }
+                br {
+                    @media screen and (max-width: 425px) {
+                        display: none;
                     }
+                }
+            }
 
-                    .mobile_social_links {
-                        display: none !important;
+            .mobile_social_links {
+                display: none !important;
 
-                        @media screen and (max-width: 768px) {
-                            display: flex !important;
-                        }
-                    }
+                @media screen and (max-width: 768px) {
+                    display: flex !important;
                 }
             }
         }
