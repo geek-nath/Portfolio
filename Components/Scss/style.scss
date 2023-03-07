@@ -11,9 +11,31 @@ body {
     .text-danger {
         color: #DD1133 !important;
     }
+
+    .bg-danger {
+        background-color: #DD1133 !important;
+    }
     
     a {
         text-decoration: none !important;
+    }
+
+    .socail_block {
+        transform: translateY(-50%);
+        border-radius: 0px 10px 10px 0px;
+        z-index: 1;
+        left: -50% !important;
+        top: 50%;
+        transition: 1s ease-in !important;
+
+        @media screen and (max-width: 768px) {
+            display: none !important;
+        }
+
+        &.social_block_show {
+            left: 0% !important;
+            transition: 1s ease-in !important;
+        }
     }
 
     // btn style
@@ -142,6 +164,19 @@ body {
             &.portfolio {
                 .container {
                     .row {
+                        @media screen and (max-width: 768px) {
+                            display: grid !important;
+                            grid-template-columns: 1fr 1fr;
+
+                            @media screen and (max-width: 425px) {
+                                grid-template-columns: 1fr;
+                            }
+
+                            .col-md-4 {
+                                width: 100%;
+                            }
+                        }
+
                         .col-md-4 {
                             margin-top: 20px;
                             .card {
@@ -170,6 +205,14 @@ body {
                             @media screen and (max-width: 425px) {
                                 display: none;
                             }
+                        }
+                    }
+
+                    .mobile_social_links {
+                        display: none !important;
+
+                        @media screen and (max-width: 768px) {
+                            display: flex !important;
                         }
                     }
                 }

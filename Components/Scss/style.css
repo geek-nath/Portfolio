@@ -10,8 +10,28 @@ body {
 body .text-danger {
   color: #DD1133 !important;
 }
+body .bg-danger {
+  background-color: #DD1133 !important;
+}
 body a {
   text-decoration: none !important;
+}
+body .socail_block {
+  transform: translateY(-50%);
+  border-radius: 0px 10px 10px 0px;
+  z-index: 1;
+  left: -50% !important;
+  top: 50%;
+  transition: 1s ease-in !important;
+}
+@media screen and (max-width: 768px) {
+  body .socail_block {
+    display: none !important;
+  }
+}
+body .socail_block.social_block_show {
+  left: 0% !important;
+  transition: 1s ease-in !important;
 }
 body .btn {
   padding: 0%;
@@ -110,6 +130,22 @@ body main section.services .container .mt-4 .row .col-md-4 .card {
   border-color: #1b324b !important;
   border-radius: 0%;
 }
+@media screen and (max-width: 768px) {
+  body main section.portfolio .container .row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 425px) {
+  body main section.portfolio .container .row {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  body main section.portfolio .container .row .col-md-4 {
+    width: 100%;
+  }
+}
 body main section.portfolio .container .row .col-md-4 {
   margin-top: 20px;
 }
@@ -131,5 +167,13 @@ body main section.contact {
 @media screen and (max-width: 425px) {
   body main section.contact .container p br {
     display: none;
+  }
+}
+body main section.contact .container .mobile_social_links {
+  display: none !important;
+}
+@media screen and (max-width: 768px) {
+  body main section.contact .container .mobile_social_links {
+    display: flex !important;
   }
 }/*# sourceMappingURL=style.css.map */
