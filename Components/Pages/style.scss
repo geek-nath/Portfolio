@@ -45,8 +45,12 @@ body {
                         background-size: cover;
                         margin-top: 20px;
 
-                        &:nth-child(1) {
-                            background-image: linear-gradient(#1b324be1, #1b324be1), url('../Assets/Images/fac-1.jpg');
+                        &.first {
+                            background-image: linear-gradient(#1b324be1, #1b324be1), url('../Assets/Images/stevosdisposable-Bf-gDobpTNU-unsplash.jpg');
+                        } &.second {
+                            background-image: linear-gradient(#1b324be1, #1b324be1), url('../Assets/Images/estee-janssens-ft99DpxNFvs-unsplash.jpg');
+                        } &.third {
+                            background-image: linear-gradient(#1b324be1, #1b324be1), url('../Assets/Images/vishwarajsinh-rana-_1fByLYHA_0-unsplash.jpg');
                         }
 
                         .project_description {

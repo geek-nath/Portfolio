@@ -34,8 +34,14 @@ body section.portfolio_card .container .row .portfolio_box_card {
   background-size: cover;
   margin-top: 20px;
 }
-body section.portfolio_card .container .row .portfolio_box_card:nth-child(1) {
-  background-image: linear-gradient(rgba(27, 50, 75, 0.8823529412), rgba(27, 50, 75, 0.8823529412)), url("../Assets/Images/fac-1.jpg");
+body section.portfolio_card .container .row .portfolio_box_card.first {
+  background-image: linear-gradient(rgba(27, 50, 75, 0.8823529412), rgba(27, 50, 75, 0.8823529412)), url("../Assets/Images/stevosdisposable-Bf-gDobpTNU-unsplash.jpg");
+}
+body section.portfolio_card .container .row .portfolio_box_card.second {
+  background-image: linear-gradient(rgba(27, 50, 75, 0.8823529412), rgba(27, 50, 75, 0.8823529412)), url("../Assets/Images/estee-janssens-ft99DpxNFvs-unsplash.jpg");
+}
+body section.portfolio_card .container .row .portfolio_box_card.third {
+  background-image: linear-gradient(rgba(27, 50, 75, 0.8823529412), rgba(27, 50, 75, 0.8823529412)), url("../Assets/Images/vishwarajsinh-rana-_1fByLYHA_0-unsplash.jpg");
 }
 body section.portfolio_card .container .row .portfolio_box_card .project_description {
   position: absolute;
