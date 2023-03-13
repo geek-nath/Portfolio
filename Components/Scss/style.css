@@ -106,15 +106,6 @@ body main section.services .container h1 {
   font-size: 3rem;
   position: relative;
 }
-body main section.services .container h1::after {
-  content: "";
-  position: absolute;
-  bottom: -5px;
-  left: 0%;
-  height: 3px;
-  width: 100px;
-  background-color: #3A7CC3;
-}
 @media screen and (max-width: 768px) {
   body main section.services .container h1 {
     font-size: 2rem;

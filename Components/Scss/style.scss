@@ -133,15 +133,16 @@ body {
                         font-size: 3rem;
                         position: relative;
 
-                        &::after {
-                            content: '';
-                            position: absolute;
-                            bottom: -5px;
-                            left: 0%;
-                            height: 3px;
-                            width: 100px;
-                            background-color: #3A7CC3;
-                        }
+                        // &::after {
+                        //     content: '';
+                        //     position: absolute;
+                        //     bottom: -5px;
+                        //     left: 0%;
+                        //     height: 3px;
+                        //     width: 100px;
+                        //     dis
+                        //     background-color: #3A7CC3;
+                        // }
 
                         @media screen and (max-width: 768px) {
                             font-size: 2rem;
