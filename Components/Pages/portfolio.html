@@ -16,6 +16,13 @@
     </head>
 
     <body>
+        <!-- scroll to top button -->
+        <a href="#" id="scrollTop" class="text-decoration-none scroll_to_top position-fixed bottom-0 end-0 mb-3 me-3">
+            <button class="btn btn-danger">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </a>
+
         <!-- preloader -->
         <div class="building-blocks">
             <div></div>
@@ -113,53 +120,169 @@
         <!-- portfolio cards -->
         <section class="portfolio_card">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-offset="200">
-                        <a href="">
-                            <div class="portfolio_box_card first">
-                                <div class="project_description p-3">
-                                    <h4 class="text-danger">
-                                        CNN clone
-                                    </h4>
-    
-                                    <p class="mt-3 small text-light">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
 
-                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-offset="200">
-                        <a href="">
-                            <div class="portfolio_box_card second">
-                                <div class="project_description p-3">
-                                    <h4 class="text-danger">
-                                        Sanjuma
-                                    </h4>
-    
-                                    <p class="mt-3 small text-light">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
-                                    </p>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-offset="200">
+                                    <a href="">
+                                        <div class="portfolio_box_card first">
+                                            <div class="project_description p-3">
+                                                <h4 class="text-danger">
+                                                    CNN clone
+                                                </h4>
+                
+                                                <p class="mt-3 small text-light">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-offset="200">
+                                    <a href="">
+                                        <div class="portfolio_box_card second">
+                                            <div class="project_description p-3">
+                                                <h4 class="text-danger">
+                                                    Sanjuma
+                                                </h4>
+                
+                                                <p class="mt-3 small text-light">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="200">
+                                    <a href="">
+                                        <div class="portfolio_box_card third">
+                                            <div class="project_description p-3">
+                                                <h4 class="text-danger">
+                                                    Calcultor
+                                                </h4>
+                
+                                                <p class="mt-3 small text-light">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
-                        </a>
-                    </div>
+                        </div>
 
-                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="200">
-                        <a href="">
-                            <div class="portfolio_box_card third">
-                                <div class="project_description p-3">
-                                    <h4 class="text-danger">
-                                        Calcultor
-                                    </h4>
-    
-                                    <p class="mt-3 small text-light">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
-                                    </p>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-offset="200">
+                                    <a href="">
+                                        <div class="portfolio_box_card first">
+                                            <div class="project_description p-3">
+                                                <h4 class="text-danger">
+                                                    CNN clone
+                                                </h4>
+                
+                                                <p class="mt-3 small text-light">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-offset="200">
+                                    <a href="">
+                                        <div class="portfolio_box_card second">
+                                            <div class="project_description p-3">
+                                                <h4 class="text-danger">
+                                                    Sanjuma
+                                                </h4>
+                
+                                                <p class="mt-3 small text-light">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="200">
+                                    <a href="">
+                                        <div class="portfolio_box_card third">
+                                            <div class="project_description p-3">
+                                                <h4 class="text-danger">
+                                                    Calcultor
+                                                </h4>
+                
+                                                <p class="mt-3 small text-light">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
-                        </a>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-offset="200">
+                                    <a href="">
+                                        <div class="portfolio_box_card first">
+                                            <div class="project_description p-3">
+                                                <h4 class="text-danger">
+                                                    CNN clone
+                                                </h4>
+                
+                                                <p class="mt-3 small text-light">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" data-aos-offset="200">
+                                    <a href="">
+                                        <div class="portfolio_box_card second">
+                                            <div class="project_description p-3">
+                                                <h4 class="text-danger">
+                                                    Sanjuma
+                                                </h4>
+                
+                                                <p class="mt-3 small text-light">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+            
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="200">
+                                    <a href="">
+                                        <div class="portfolio_box_card third">
+                                            <div class="project_description p-3">
+                                                <h4 class="text-danger">
+                                                    Calcultor
+                                                </h4>
+                
+                                                <p class="mt-3 small text-light">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, explicabo quidem, facere nemo rem impedit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

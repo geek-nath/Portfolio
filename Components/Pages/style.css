@@ -26,6 +26,18 @@ body section.banner .container div h1 {
 body section.portfolio_card {
   padding: 5rem 0px;
 }
+body section.portfolio_card .container .carousel-indicators {
+  bottom: -15% !important;
+}
+body section.portfolio_card .container .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  background-color: #DD1133;
+  transition: 0.3s ease-in;
+}
+body section.portfolio_card .container .carousel-indicators button.active {
+  width: 35px;
+}
 body section.portfolio_card .container .row .portfolio_box_card {
   height: 400px;
   position: relative;

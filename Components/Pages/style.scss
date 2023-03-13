@@ -36,6 +36,23 @@ body {
             padding: 5rem 0px;
 
             .container {
+                .carousel-indicators {
+                    bottom: -15% !important;
+
+                    button {
+                        width: 10px;
+                        height: 10px;
+                        // border-radius: 50px !important;
+                        background-color: #DD1133;
+                        transition: .3s ease-in;
+
+                        &.active {
+                            width: 35px;
+                            // border-radius: 5px !important;
+                        }
+                    }
+                }
+
                 .row {
                     .portfolio_box_card {
                         height: 400px;
