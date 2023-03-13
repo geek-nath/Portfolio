@@ -39,6 +39,19 @@ body {
         }
     }
 
+    .scroll_to_top {
+        transition: .3s ease-in;
+        opacity: 0;
+
+        &.show {
+            opacity: 1;
+        }
+
+        .btn {
+            width: 50px;
+        }
+    }
+
     // btn style
     .btn {
         padding: 0%;

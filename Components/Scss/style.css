@@ -34,6 +34,16 @@ body .socail_block.social_block_show {
   opacity: 0.4;
   transition: 0.4s ease-in !important;
 }
+body .scroll_to_top {
+  transition: 0.3s ease-in;
+  opacity: 0;
+}
+body .scroll_to_top.show {
+  opacity: 1;
+}
+body .scroll_to_top .btn {
+  width: 50px;
+}
 body .btn {
   padding: 0%;
   height: 50px;

@@ -18,10 +18,16 @@ window.addEventListener("load", function() {
 
 const socialLinkBlock = document.getElementById('socialBlock');
 
+// show scroll to top button on scroll
+
+const scrollToTop = document.getElementById('scrollTop');
+
 window.onscroll = ()=> {
-    if(window.scrollY > 2) {
+    if(window.scrollY > 10) {
         socialLinkBlock.classList.add('social_block_show');
+        scrollToTop.classList.add('show')
     } else {
         socialLinkBlock.classList.remove('social_block_show');
+        scrollToTop.classList.remove('show')
     }
 }
